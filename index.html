@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicial page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  .logo-name{
+    display: flex;
+    justify-content: center;
+    width: 258px;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+  .logo-image svg{
+    width: 70px;
+  }
+  .logo-name .logo_name{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 14px;
+    transition: var(--tran-05);
+}
+
+.btn{
+    margin-top: 60px;
+}
+  .btn input{
+    width: 230px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .btn input:hover{
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+    </style>
+</head>
+<body>
+    <div class="logo-name">
+        <div class="logo-image">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="thumbnail-icon" viewBox="5.620364665985107 0.0000019073486328125 188.75926208496094 200"><g data-paper-data="{&quot;fillRule&quot;:&quot;evenodd&quot;,&quot;isIcon&quot;:&quot;true&quot;,&quot;iconType&quot;:&quot;icon&quot;,&quot;rawIconId&quot;:&quot;3964623&quot;,&quot;selectedEffects&quot;:{&quot;container&quot;:&quot;&quot;,&quot;transformation&quot;:&quot;&quot;,&quot;pattern&quot;:&quot;&quot;},&quot;isDetailed&quot;:false,&quot;bounds&quot;:{&quot;x&quot;:207.96988800294525,&quot;y&quot;:115,&quot;width&quot;:134.0602239941095,&quot;height&quot;:142.04360164355631},&quot;iconStyle&quot;:&quot;standalone&quot;}"><path d="M103.22272,0.75586l87.11737,43.36562c2.45639,1.2279 4.01667,3.72915 4.03954,6.47514v98.76074c-0.00475,2.75877 -1.56888,5.27754 -4.03954,6.50484l-87.11737,43.39532c-2.03432,0.98998 -4.41111,0.98998 -6.44544,0l-87.11737,-43.39532c-2.47065,-1.22731 -4.03478,-3.74608 -4.03954,-6.50484v-98.76074c0.02287,-2.74599 1.58314,-5.24724 4.03954,-6.47514l87.11737,-43.36562c2.03016,-1.00781 4.41527,-1.00781 6.44544,0zM170.85526,50.59662l-70.84041,-35.25684l-70.87011,35.25684l66.56325,33.14797v-56.19709l4.36626,-2.97025l4.33656,2.97025v56.19709zM20.14489,62.47761v79.36502l62.22669,-31.03909v9.89093l-55.51393,27.68271l65.8801,32.67273v-82.54319zM117.56902,120.54596v-9.74241l62.2861,31.03909v-79.36502l-72.47405,36.02911v82.54319l65.76129,-32.82124z" fill-rule="evenodd"></path></g></svg>
+        </div>
+
+        <span class="logo_name">LOOKOUT</span>
+        
+        <div class="btn">
+        <a href="panel.html">
+        <input type="button" value="Continuar">
+        </a>
+     </div>
+    </div>
+</body>
+</html>
